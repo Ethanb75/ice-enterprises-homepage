@@ -1,0 +1,9 @@
+.hero p {
+  padding: 0rem 15vw;
+}
+.icon.major {
+  line-height: 6em;
+}
+.icon.major svg {
+  font-size: 1.5em;
+}
