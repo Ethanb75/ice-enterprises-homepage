@@ -1,3 +1,13 @@
+#header h1 a {
+  position: relative;
+  bottom: -.5rem;
+}
+
+#header h1 img {
+  width: 10rem;
+}
+
+
 .hero p {
   padding: 0rem 15vw;
 }
