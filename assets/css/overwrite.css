@@ -1,5 +1,7 @@
-.toggle {
-  
+.mobileLogo {
+  width: 6rem;
+  margin-bottom: .5em;
+  display: none;
 }
 
 #nav li:first-of-type {
@@ -89,4 +91,19 @@ section.special.box.call {
   background-color: #A3E749;
   letter-spacing: .25px;
   font-size: 1em;
+}
+
+@media screen and (max-width: 840px) {
+  .mobileLogo {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  #banner h2 {
+    font-size: 2.5em;
+  }
+  #banner p {
+    font-size: 1em;
+  }
 }
