@@ -3405,7 +3405,8 @@
 					#navButton .toggle:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
-						font-family: FontAwesome;
+						/* font-family: FontAwesome; */
+						font-family: "Source Sans Pro", sans-serif;
 						font-style: normal;
 						font-weight: normal;
 						text-transform: none !important;
@@ -3415,7 +3416,7 @@
 						background: rgba(192, 192, 192, 0.75);
 						border-radius: 6px;
 						color: #fff;
-						content: '\f0c9';
+						content: 'Menu';
 						display: block;
 						font-size: 16px;
 						height: 2.25em;
