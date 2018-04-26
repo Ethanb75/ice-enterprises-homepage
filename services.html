@@ -10,6 +10,7 @@
   <title>SERVICES | ICE Enterprises</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="ICE Enterprises official homepage. The #1 landscaping, turf management, snow removal, and salting company based out of WI">
   <!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/overwrite.css" />
@@ -28,6 +29,7 @@
       </h1>
       <nav id="nav">
         <ul>
+          <li>(815) 271-0368</li>
           <li>
             <a href="/">Home</a>
           </li>
@@ -43,7 +45,7 @@
         </ul>
       </nav>
     </header>
-
+    <!-- Mulching, irrigation, Aeration, specialize in sports-field care -->
     <!-- Main -->
     <section id="main" class="container">
       <div id="banner" style="visibility: hidden; padding: 0"></div>
@@ -53,12 +55,11 @@
       </header>
       <div class="box">
         <span class="image featured">
-          <img src="css/images/services2.jpeg" alt="" />
+          <img src="css/images/serv2.jpg" alt="" />
         </span>
-        <h3>Providing professional services with a smile.</h3>
-        <p>For over 20 years ICE has created happy customers in the Twin Lakes, WI area. Adipiscing faucibus nunc placerat.
-          Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut
-          ut praesent.</p>
+        <h3>Providing landscaping services with a smile.</h3>
+        <p>For over 20 years ICE has created happy customers in the Twin Lakes, WI area. Our expertise and wide array of tools
+          allow us to tackle any job both residential and commercial. We specialize in sports-field care.</p>
         <div class="row">
           <div class="6u 12u(mobilep)">
             <h3>Soil Retaining</h3>
@@ -81,9 +82,33 @@
           </div>
           <div class="6u 12u(mobilep)">
             <h3>Patio's</h3>
-            <p>Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum
-              amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo
-              faucibus faucibus. Curae lorem ipsum adipiscing ac. Vivamus ornare laoreet odio vis praesent.</p>
+            <p>Installing a patio can be costly if done incorrectly. Building regulations, drainage, and grading can make installation
+              a tedious process. Leave this intimidating process to a team of proffessionals with years of experience.</p>
+          </div>
+        </div>
+        <div class="row sub">
+          <h3>We also offer...</h3>
+          <div>
+            <span>Mulching</span>
+            <span>irrigation</span>
+            <span>Aeration</span>
+            <span>sports-field care</span>
+          </div>
+        </div>
+        <div class="row abtImages">
+          <div class="6u 12u(mobilep)">
+            <img src="css/images/serv1.1.jpg" alt="" />
+          </div>
+          <div class="6u 12u(mobilep)">
+            <img src="css/images/serv3.jpg" alt="" />
+          </div>
+        </div>
+        <div class="row abtImages">
+          <div class="6u 12u(mobilep)">
+            <img src="css/images/serv4.jpg" alt="" />
+          </div>
+          <div class="6u 12u(mobilep)">
+            <img src="css/images/serv5.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -92,9 +117,9 @@
     <section id="cta">
 
       <h2>Contact us today for a quote</h2>
-      <p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
+      <p>We respond promptly and would love to talk to you today.</p>
 
-      <form>
+      <form id="form">
         <div class="row uniform 50%">
           <div class="8u 12u(mobilep)">
             <input type="email" name="email" id="email" placeholder="Email Address" />
@@ -104,7 +129,10 @@
           </div>
         </div>
       </form>
-
+      <div>
+        <span>icesnowlandscape@gmail.com</span>
+        <span>(815) 271-0368</span>
+      </div>
     </section>
 
     <!-- Footer -->
@@ -147,7 +175,7 @@
           <a href="http://html5up.net">HTML5 UP</a>
         </li>
         <li>Site:
-          <a href="">AntiSocial</a>
+          <a href="https://antisocial.to">AntiSocial</a>
         </li>
       </ul>
     </footer>
@@ -162,7 +190,14 @@
   <script src="js/util.js"></script>
   <!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
   <script src="js/main.js"></script>
-
+  <script type="text/javascript">
+    (function () {
+      document.getElementById('form').addEventListener('submit', function (ev) {
+        ev.preventDefault();
+        return window.open("mailto:icesnowlandscape@gmail.com");
+      })
+    }())
+  </script>
 </body>
 
 </html>

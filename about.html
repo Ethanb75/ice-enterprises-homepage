@@ -10,6 +10,7 @@
   <title>ABOUT | ICE Enterprises</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="ICE Enterprises official homepage. The #1 landscaping, turf management, snow removal, and salting company based out of WI">
   <!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/overwrite.css" />
@@ -28,6 +29,7 @@
       </h1>
       <nav id="nav">
         <ul>
+          <li>(815) 271-0368</li>
           <li>
             <a href="/">Home</a>
           </li>
@@ -52,31 +54,52 @@
       </header>
       <div class="box">
         <span class="image featured">
-          <img src="css/images/banner4.jpeg" alt="" />
+          <img src="css/images/abtHead.jpg" alt="" />
         </span>
         <h3>Our team's helped businesses and individuals for over 20 years</h3>
-        <p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit
-          accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi.
-          Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi
-          eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet
-          aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia
-          cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus
-          sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla.
-          Non vestibulum ac interdum condimentum semper commodo massa arcu.</p>
-        <div class="row">
+        <p>ICE Enterprises offers a proven track record of creative, proffessional, and prompt landscape design and maintenance.
+          We have a reputation for being the go-to landscaping company for difficult and precise projects. Because of our
+          hard work, we've become a market leader in Wisconsin. We're working owners that care about each project individually.
+          Contact us today to learn more about our team.</p>
+        <div class="row abtImages">
           <div class="6u 12u(mobilep)">
-            <h3>More about + project photo and desc</h3>
-            <p>Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum
-              amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo
-              faucibus faucibus. Curae lorem ipsum adipiscing ac. Vivamus ornare laoreet odio vis praesent.</p>
+            <img src="css/images/abt1.jpg" alt="" />
           </div>
           <div class="6u 12u(mobilep)">
-            <h3>More about + project photo and desc</h3>
-            <p>Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum
-              amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo
-              faucibus faucibus. Curae lorem ipsum adipiscing ac. Vivamus ornare laoreet odio vis praesent.</p>
+            <img src="css/images/abt2.jpg" alt="" />
           </div>
         </div>
+        <div class="row abtImages">
+          <div class="6u 12u(mobilep)">
+            <img src="css/images/abt3.jpg" alt="" />
+          </div>
+          <div class="6u 12u(mobilep)">
+            <img src="css/images/truck2.jpg" alt="" />
+          </div>
+        </div>
+        <h5 class="abtFoot">Check out our
+          <a href="https://www.facebook.com/icesnowlandscape/" target="__blank">Facebook</a> to discover more.</h5>
+      </div>
+    </section>
+
+    <section id="cta">
+
+      <h2>Contact us today for a quote</h2>
+      <p>We respond promptly and would love to talk to you today.</p>
+
+      <form id="form">
+        <div class="row uniform 50%">
+          <div class="8u 12u(mobilep)">
+            <input type="email" name="email" id="email" placeholder="Email Address" />
+          </div>
+          <div class="4u 12u(mobilep)">
+            <input type="submit" value="Email Us" class="fit" />
+          </div>
+        </div>
+      </form>
+      <div>
+        <span>icesnowlandscape@gmail.com</span>
+        <span>(815) 271-0368</span>
       </div>
     </section>
 
@@ -119,6 +142,9 @@
         <li>html5 theme:
           <a href="http://html5up.net">HTML5 UP</a>
         </li>
+        <li>Site:
+          <a href="https://antisocial.to">AntiSocial</a>
+        </li>
       </ul>
     </footer>
 
@@ -132,7 +158,14 @@
   <script src="js/util.js"></script>
   <!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
   <script src="js/main.js"></script>
-
+  <script type="text/javascript">
+    (function () {
+      document.getElementById('form').addEventListener('submit', function (ev) {
+        ev.preventDefault();
+        return window.open("mailto:icesnowlandscape@gmail.com");
+      })
+    }())
+  </script>
 </body>
 
 </html>
